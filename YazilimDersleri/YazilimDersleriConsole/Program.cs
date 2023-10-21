@@ -75,4 +75,258 @@ Console.WriteLine("Çevre : " +  Math.Round(cevre,2));
  * Girilen Sayının Karesini ve Kübünü Alan Programı yazınız.
  * 
  */
+/*
+ * C# programlama dili diğer programlama dillerinde olduğu iki türlü koşul
+ * kodu bulunmaktadır bunlardan if else switch case
+ * switch case çoktan seçmeli koşullarda if else'ten daha hızlı çalışır.
+ * 
+ */
+/*
+double sayi1, sayi2, toplam;
+int secim = 0;
+Console.WriteLine("Lütfen seçiminizi yapınız.");
+Console.WriteLine("1- Toplama\n2- Çıkarma\n3- Çarpma \n4- Bölme");
+secim = int.Parse(Console.ReadLine());
+if (secim == 1)
+{
+    Console.WriteLine("1. Sayıyı Giriniz : ");
+    sayi1 = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("2. Sayıyı Giriniz : ");
+    sayi2 = Convert.ToDouble(Console.ReadLine());
+    toplam = sayi1 + sayi2;
+    Console.WriteLine("Sayıların Toplamı : " + toplam);
+}
+else if (secim == 2)
+{
+    Console.WriteLine("1. Sayıyı Giriniz : ");
+    sayi1 = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("2. Sayıyı Giriniz : ");
+    sayi2 = Convert.ToDouble(Console.ReadLine());
+    toplam = sayi1 - sayi2;
+    Console.WriteLine("Sayıların Farkı : " + toplam);
+}
+else if (secim == 3)
+{
+    Console.WriteLine("1. Sayıyı Giriniz : ");
+    sayi1 = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("2. Sayıyı Giriniz : ");
+    sayi2 = Convert.ToDouble(Console.ReadLine());
+    toplam = sayi1 * sayi2;
+    Console.WriteLine("Sayıların Çarpım : " + toplam);
+}
+else if (secim == 4)
+{
+    Console.WriteLine("1. Sayıyı Giriniz : ");
+    sayi1 = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine("2. Sayıyı Giriniz : ");
+    sayi2 = Convert.ToDouble(Console.ReadLine());
+    toplam = sayi1 / sayi2;
+    Console.WriteLine("Sayıların Bölümünün Sonucu : " + toplam);
+}
+else
+{
+    Console.WriteLine("Yanlış yaptın");
+}
+switch (secim)
+{
+    case 1:
+        Console.WriteLine("1. Sayıyı Giriniz : ");
+        sayi1 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("2. Sayıyı Giriniz : ");
+        sayi2 = Convert.ToDouble(Console.ReadLine());
+        toplam = sayi1 + sayi2;
+        Console.WriteLine("Sayıların Toplamı : " + toplam);
+        break;
+    case 2:
+        Console.WriteLine("1. Sayıyı Giriniz : ");
+        sayi1 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("2. Sayıyı Giriniz : ");
+        sayi2 = Convert.ToDouble(Console.ReadLine());
+        toplam = sayi1 - sayi2;
+        Console.WriteLine("Sayıların Farkı : " + toplam);
+        break;
+    case 3:
+        Console.WriteLine("1. Sayıyı Giriniz : ");
+        sayi1 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("2. Sayıyı Giriniz : ");
+        sayi2 = Convert.ToDouble(Console.ReadLine());
+        toplam = sayi1 * sayi2;
+        Console.WriteLine("Sayıların Çarpım : " + toplam);
+        break;
+    case 4:
+        Console.WriteLine("1. Sayıyı Giriniz : ");
+        sayi1 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("2. Sayıyı Giriniz : ");
+        sayi2 = Convert.ToDouble(Console.ReadLine());
+        toplam = sayi1 / sayi2;
+        Console.WriteLine("Sayıların Bölümünün Sonucu : " + toplam);
+        break;
+    default:
+        Console.WriteLine("Yanlış yaptın");
+        break;
+}
+*/
+/*
+double r1, r2, r3, rt;
+Console.WriteLine("1. Direnç Değerini Giriniz : ");
+r1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("2. Direnç Değerini Giriniz : ");
+r2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("3. Direnç Değerini Giriniz : ");
+r3 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("1- Seri\n2- Parelel");
+int secim = Convert.ToInt32(Console.ReadLine());
+switch (secim)
+{
+    case 1:
+        rt = r1 + r2 + r3;
+        Console.WriteLine("Seri Devrenin Değeri : " + rt);
+        break;
+    case 2:
+        rt = 1 / ((1 / r1) + (1 / r2) + (1 / r3));
+        Console.WriteLine("Parelel Devrenin Değeri : "+rt);
+        break;
+    default:
+        Console.WriteLine("%50 %50 şıkkın var onu bile beceremiyon");
+        break;
+}
+*/
+/*Console.WriteLine("Bir Sayı Giriniz : ");
+double sayi = Convert.ToDouble(Console.ReadLine());
+if (sayi < 0)
+{
+    Console.WriteLine("Sayı Negatif");
+}
+else if (sayi > 0)
+{
+    Console.WriteLine("Sayı Pozitif");
+}
+else
+{
+    Console.WriteLine("Sayı Nötr'dür");
+}
+if (sayi < 0)
+    Console.WriteLine("Sayı Negatiftir.");
+else if (sayi > 0)
+    Console.WriteLine("Sayı Pozitif");
+else Console.WriteLine("Sayı Nötr");
+*/
+/*
+ * For Döngüsü (Koşul önde gelip döngünün devamlılığını önden verip yapıyor işlemi)
+ * for(int i=0; i<10; i++)
+ * {
+ *      Console.WriteLine(i);
+ * }
+ 
+ */
+/*for (int i = 0; i <= 3; i++)
+{
+    Console.WriteLine(i);
+}*/
+/*int a = 0;*/
+/*while (a <= 3)
+{
+    Console.WriteLine(a);
+    a++;
+}*/
+/*
+do
+{
+    Console.WriteLine(a);
+    a++;
+} while (a<=3);
+*/
+/*Kullanıcıdan 10 adet sayı istiyoruz bunların 50'den küçük alanlarının
+ sayını bulan program*/
+/*int sayi, sayac = 0, i=1;*/
+/*for (int i = 1; i <= 10; )
+{
+    Console.WriteLine("{0}. Sayıyı Giriniz : ", i);
+    sayi = Convert.ToInt32(Console.ReadLine());
+    if (sayi <= 50)
+        sayac++;
+}*/
+/*while (i<=10)
+{
+    Console.WriteLine("{0}. Sayıyı Giriniz : ", i);
+    sayi = Convert.ToInt32(Console.ReadLine());
+    if (sayi <= 50)
+        sayac++;
+    i++;
+}*/
+/*do
+{
+    Console.WriteLine("{0}. Sayıyı Giriniz : ", i);
+    sayi = Convert.ToInt32(Console.ReadLine());
+    if (sayi <= 50)
+        sayac++;
+    i++;
+} while (i<=10);*/
+/*
+Console.WriteLine
+    ("50'ye eşit ve 50'den küçük olan sayı adedi : " + sayac);*/
+/*
+ * Kullanıcıdan Başlangıç, bitiş ve artış değerini isteyerek
+ * verilen artış miktarına göre Başlangıç Bitiş Sayıları arasında
+ * döngü oluşturan program.
+ */
+/*int baslangic, bitis, artis,a;
+Console.WriteLine("Başlangıç Sayısı : ");
+baslangic = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Bitiş Sayısı : ");
+bitis = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Artış Sayısı : ");
+artis = Convert.ToInt32(Console.ReadLine());
+for (int i = baslangic; i <= bitis; i+=artis)
+{
+    Console.WriteLine(i);
+}
+while (baslangic<=bitis)
+{
+    a = baslangic;
+    Console.WriteLine(a);
+    a += artis;
+}
+do
+{
+    a = baslangic;
+    Console.WriteLine(a);
+    a += artis;
+} while (baslangic <= bitis);*/
+/*
+ * Soru 1 = Kullanıcdan Girilen Sayının Tek mi? Çift mi olduğunu bulan
+ * program.
+ * Soru 2 = Girilen 2 Sayıdan Büyük Olanını Bulan Program.
+ * Soru 3 = Haklı Sayı Bulma Oyunu
+ * Soru 4 = Atm'den Para Çekme Uygulaması. Kullanıcı Para Çekme
+ * İşlemini bitirene kadar atmden para çekebilsin.
+ * Soru 5 = Girilen 2 Sayının Hangisinin kendisine Tam Bölünen
+ * Sayı olduğunu bulan program.
+ */
+int sayi = 56;
+if (sayi % 2 == 0)
+    Console.WriteLine("Sayı Çift");
+else Console.WriteLine("Sayı Tek");
+int say1 = 25, say2 = 35;
+if (sayi > say2)
+{
+    Console.WriteLine("Sayı 1 Sayı 2 den büyüktür");
+}
+else if (say2 > say1)
+{
+    Console.WriteLine("Sayı 2 Sayı 1 den büyüktür");
+}
+else
+{
+    Console.WriteLine("Sayı Birbirine eşittir.");
+}
+int sayi1=22, sayi2=25;
+if (sayi1 / sayi1 == 1 && sayi2 / sayi2 == 1)
+{
+    Console.WriteLine("Sayı kendisine bölünüyor");
+}
+else
+{
+    Console.WriteLine("Sayı kendisine bölünmüyor");
+}
 Console.ReadKey();
