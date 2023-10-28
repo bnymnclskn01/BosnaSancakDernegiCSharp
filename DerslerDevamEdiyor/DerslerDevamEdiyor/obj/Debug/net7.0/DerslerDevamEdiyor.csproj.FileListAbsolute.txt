@@ -1,0 +1,15 @@
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/bin/Debug/net7.0/DerslerDevamEdiyor
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/bin/Debug/net7.0/DerslerDevamEdiyor.deps.json
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/bin/Debug/net7.0/DerslerDevamEdiyor.runtimeconfig.json
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/bin/Debug/net7.0/DerslerDevamEdiyor.dll
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/bin/Debug/net7.0/DerslerDevamEdiyor.pdb
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/obj/Debug/net7.0/DerslerDevamEdiyor.csproj.AssemblyReference.cache
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/obj/Debug/net7.0/DerslerDevamEdiyor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/obj/Debug/net7.0/DerslerDevamEdiyor.AssemblyInfoInputs.cache
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/obj/Debug/net7.0/DerslerDevamEdiyor.AssemblyInfo.cs
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/obj/Debug/net7.0/DerslerDevamEdiyor.csproj.CoreCompileInputs.cache
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/obj/Debug/net7.0/DerslerDevamEdiyor.dll
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/obj/Debug/net7.0/refint/DerslerDevamEdiyor.dll
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/obj/Debug/net7.0/DerslerDevamEdiyor.pdb
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/obj/Debug/net7.0/DerslerDevamEdiyor.genruntimeconfig.cache
+/Users/ebec/Documents/GitHub/BosnaSancakDernegiCSharp/DerslerDevamEdiyor/DerslerDevamEdiyor/obj/Debug/net7.0/ref/DerslerDevamEdiyor.dll
